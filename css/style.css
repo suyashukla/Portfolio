@@ -1,0 +1,138 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 0 5rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px;
+    font-family: "Roboto", cursive;
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: black;
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: linear-gradient(90deg, #4458dc, #854fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: linear-gradient(90deg, #4458dc, #854fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.site-main .site-banner{
+    height: 100%;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 3.56rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image>img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+.title-text{
+    font: normal bold 50px/72px;
+    font-family: "Roboto", cursive;
+}
+
+.site-main .about-area .about-title{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2>span{
+    display: block;
+    font: normal bold 49px/60px;
+    font-family: "Roboto", cursive;
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragragh >p{
+    padding: ;
+}
+
+p.para{
+    color: #777777;
+    font: normal bold 16px/25px;
+    font-family: "Roboto", cursive;
+}
+
+/* project area */
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px;
+    font-family: "Roboto", cursive;
+    text-transform: uppercase;
+}
+
+
+.site-main .project-area .grid .our-project > title h4{
+    font: normal 700 25px/12px;
+    font-family: "Roboto", cursive;
+}
+
+.title-h1{
+    font: normal bold 39px/40px;
+    font-family: "Roboto", cursive;
+}
+
+.footer-area{
+    padding: 5rem 0;
+    background: url(https://raw.githubusercontent.com/akashyap2013/PortFolio_Website/master/img/footer-bg.png) no-repeat;
+}
+
+.footer-area.social h5{
+    font: normal 500 23px/30px;
+    font-family: "Roboto", cursive;
+}
+
+.social i{
+    font-size: 22px;
+    padding: 2rem;
+    color: #201f1f17;
+}
+
+.social a:hover>i{
+    color:  #4458dc;
+}
+
+.navbar_fixed{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    top: -1px;
+    left: 0;right: 0;
+    background: #ffffff;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    z-index: 999;
+    transition: background .5s ease;
+}
